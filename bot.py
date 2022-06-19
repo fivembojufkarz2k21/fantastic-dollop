@@ -38,7 +38,7 @@ driver.set_window_size(1920, 1080)
 
 print("rawr")
 usernamerepl = "".join(random.sample(username_for, long_username))
-emailrepl = "".join(random.sample(username_for, long_username))+"@gmail.com"
+emailrepl = "".join(random.sample(username_for, long_username))+"@cldkid.com"
 a = True
 time.sleep(3)
 driver.get('https://replit.com/logout')
@@ -72,7 +72,7 @@ while a==True:
 
 
 
-driver.get('https://replit.com/@sdfjhsdfij/OutrageousOptimalIteration?v=1')
+driver.get('https://replit.com/@rmdmnf/kor?v=1')
 driver.execute_script("""function getElementByXpath(path){return document.evaluate(path,document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue}getElementByXpath("/html/body/div[1]/div/main/div[3]/div/div/div[2]/div/button[1]").click();""")
 time.sleep(55)
 
