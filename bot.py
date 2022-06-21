@@ -72,7 +72,7 @@ while a==True:
 
 
 
-driver.get('https://replit.com/@gdfhdfg/InnocentUnderstatedRedundantcode?v=1')
+driver.get('https://replit.com/@dsfjoh/LividUntrueInterface?v=1')
 driver.execute_script("""function getElementByXpath(path){return document.evaluate(path,document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue}getElementByXpath("/html/body/div[1]/div/main/div[3]/div/div/div[2]/div/button[1]").click();""")
 time.sleep(55)
 
