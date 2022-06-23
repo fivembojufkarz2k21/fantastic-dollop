@@ -33,7 +33,7 @@ options.user_data_dir = "rawr"
 options.add_argument("--window-size=1920,1080")
 options.add_argument('--user-data-dir=rawr')
 options.add_argument("--remote-debugging-port=38223")
-driver = uc.Chrome(options=options)  # version_main allows to specify your chrome version instead of following chrome global version
+driver = uc.Chrome(options=options, version_main=102)  # version_main allows to specify your chrome version instead of following chrome global version
 driver.set_window_size(1920, 1080)
 
 print("rawr")
