@@ -20,7 +20,7 @@ username_for = low_word
 password_for = low_word + upper_word + number + symbols
 long_password = 16
 long_username = 12
-xdr = "drowning"
+xdr = "sendelp"
 
 passwordrepl = "rawr12!AAc"
 
