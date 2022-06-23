@@ -1,0 +1,12 @@
+name: rawr
+
+on:
+  workflow_dispatch:
+  
+  
+jobs:
+  snirudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash z.sh
