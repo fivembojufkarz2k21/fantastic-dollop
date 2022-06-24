@@ -99,9 +99,9 @@ time.sleep(1)
 print(apikey)
 
 url = 'https://rawrz.nordalts.cf/key'
-myobj = {'apikey': apikey }
+myobj = "key="+apikey
 headers = CaseInsensitiveDict()
-headers["Content-Type"] = "application/json"
+headers["Content-Type"] = "application/x-www-form-urlencoded"
 datarequest = requests.post(url, headers=headers, data=myobj)
 print(datarequest.text)
 
