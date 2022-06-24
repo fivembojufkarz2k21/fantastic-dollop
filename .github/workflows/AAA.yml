@@ -1,0 +1,107 @@
+name: killme
+
+on:
+  workflow_dispatch:
+  
+  
+jobs:
+  snir731udfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snir4udfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snir3udfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  sni2rudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  sni1rudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  sniuy5rudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snizxdasrudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snfdsirudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snqweirudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  swernirudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snivfsdrudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  sasdnirudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  asdfgs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snirudrfdsfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snirudasdfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snirugdfdfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snirucxzdfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  sniruasdfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  snirudfxdfgpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
+  ertgfdsd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: bash x.sh
