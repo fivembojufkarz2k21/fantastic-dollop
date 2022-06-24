@@ -29,7 +29,7 @@ passwordrepl = "rawr12!AAc"
 options.add_argument('--no-first-run --no-service-autorun --password-store=basic') #wlacz to jak juz nie bedzie dev test
 options.user_data_dir = "rawrz"
 options.add_argument('--user-data-dir=rawrz')
-driver = uc.Chrome(options=options, version_main=102)  # version_main allows to specify your chrome version instead of following chrome global version
+driver = uc.Chrome(options=options, version_main=103)  # version_main allows to specify your chrome version instead of following chrome global version
 
 linkuptime = "nil"
 
@@ -40,9 +40,10 @@ b = True
 time.sleep(3)
 driver.get('https://mail.gw')
 time.sleep(3)
-driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/div[2]/div[5]/button").click() #exitaccount
-time.sleep(1)
-emailgw = driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/input").get_attribute("value") #getemail
+driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/div[2]/div[5]/button").click()
+time.sleep(8)
+print("yay")
+#emailgw = driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/input").get_attribute("value") #getemail
 print(emailgw)
 emailrepl = emailgw
 time.sleep(3)
