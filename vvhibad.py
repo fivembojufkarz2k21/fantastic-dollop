@@ -9,6 +9,7 @@ import json
 import os
 import requests
 from requests.structures import CaseInsensitiveDict
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 #import clipboard
 options = uc.ChromeOptions()
 
@@ -29,10 +30,13 @@ passwordrepl = "rawr12!AAc"
 
 options.add_argument('--no-first-run --no-service-autorun --password-store=basic') #wlacz to jak juz nie bedzie dev test
 options.user_data_dir = "rawr"
+caps = DesiredCapabilities().CHROME
+# caps["pageLoadStrategy"] = "normal"  #  Waits for full page load
+caps["pageLoadStrategy"] = "none"   # Do not wait for full page load
 options.add_argument('--user-data-dir=rawr')
-driver = uc.Chrome(options=options)  # version_main allows to specify your chrome version instead of following chrome global version
+driver = uc.Chrome(options=options, desired_capabilities=caps)  # version_main allows to specify your chrome version instead of following chrome global version
 driver.get("https://client.falixnodes.net/auth/register")
-time.sleep(3)
+time.sleep(10)
 emailrepl = "".join(random.sample(username_for, long_username))+"@cldkid.com"
 xd = False
 frime = driver.find_element(By.XPATH, "/html/body/main/div/div/div/div/div/div/div[2]/div/form/center/div/iframe")
@@ -57,9 +61,12 @@ driver.find_element(By.XPATH, "/html/body/main/div/div/div/div/div/div/div[2]/di
 driver.find_element(By.XPATH, "/html/body/main/div/div/div/div/div/div/div[2]/div/form/div[3]/input").click()
 time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/main/div/div/div/div/div/div/div[2]/div/form/div[4]/button").click()
-time.sleep(6)
+time.sleep(20)
 driver.get("https://client.falixnodes.net/create")
+time.sleep(7)
 driver.find_element(By.XPATH, "/html/body/main/div/div/div[4]/div/div/div[2]/div/form/div[1]/input").send_keys("let go")
 driver.find_element(By.XPATH, "/html/body/main/div/div/div[4]/div/div/div[2]/div/form/div[3]/input").click()
 time.sleep(3)
 driver.find_element(By.XPATH, "/html/body/main/div/div/div[4]/div/div/div[2]/div/form/input").click()
+time.sleep(9)
+driver.close()
