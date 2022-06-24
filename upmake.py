@@ -1,6 +1,7 @@
 import undetected_chromedriver as uc
 from selenium.webdriver import Chrome
 from selenium import webdriver
+import from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 import random
@@ -40,10 +41,10 @@ b = True
 time.sleep(3)
 driver.get('https://mail.gw')
 time.sleep(3)
-driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/div[2]/div[5]/button").click()
+driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[2]/div[5]/button").click()
 time.sleep(8)
 print("yay")
-#emailgw = driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/input").get_attribute("value") #getemail
+emailgw = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/input").get_attribute("value") #getemail
 print(emailgw)
 emailrepl = emailgw
 time.sleep(3)
@@ -51,22 +52,22 @@ driver.get('https://uptimerobot.com')
 time.sleep(1)
 driver.get('https://uptimerobot.com/signUp?ref=website-header')
 time.sleep(1.2)
-driver.find_element_by_xpath("/html/body/section/div/div[2]/div[1]/form/div[1]/input").send_keys(usernamerepl) #fullname
+driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/div[1]/input").send_keys(usernamerepl) #fullname
 time.sleep(0.1)
-driver.find_element_by_xpath("/html/body/section/div/div[2]/div[1]/form/div[2]/input").send_keys(emailrepl) #email
+driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/div[2]/input").send_keys(emailrepl) #email
 time.sleep(0.1)
-driver.find_element_by_xpath("/html/body/section/div/div[2]/div[1]/form/div[3]/input").send_keys(passwordrepl) #password
-frime = driver.find_element_by_xpath("/html/body/section/div/div[2]/div[1]/form/div[5]/div/div/div/iframe")
+driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/div[3]/input").send_keys(passwordrepl) #password
+frime = driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/div[5]/div/div/div/iframe")
 driver.switch_to.frame(frime)
 timez = int(time.time())+120
 try:
-    if(driver.find_element_by_xpath("/html/body/div[2]/div[3]/div[1]/div/div/span")):
+    if(driver.find_element(By.XPATH, "/html/body/div[2]/div[3]/div[1]/div/div/span")):
         print("yes")
         while b == True:
             if(timez<int(time.time())):
                 cockz
             time.sleep(0.5)
-            if(driver.find_element_by_xpath("/html/body/div[2]/div[3]/div[1]/div/div/span").get_attribute("class").find("recaptcha-checkbox-checked") != -1):
+            if(driver.find_element(By.XPATH, "/html/body/div[2]/div[3]/div[1]/div/div/span").get_attribute("class").find("recaptcha-checkbox-checked") != -1):
                 b=False
 except:
     print("err")
@@ -76,15 +77,15 @@ if(timez<int(time.time())):
     cockz
 driver.switch_to.default_content()
 time.sleep(1)
-driver.find_element_by_xpath("/html/body/section/div/div[2]/div[1]/form/button").click()
+driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/button").click()
 time.sleep(10)
 driver.get('https://mail.gw')
 time.sleep(1)
-driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/main/div/div[2]/ul/li/a/div").click() #click mail
+driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div[2]/ul/li/a/div").click() #click mail
 time.sleep(1)
-framemail = driver.find_element_by_xpath("/html/body/div[1]/div/div/div[2]/main/div/div[3]/div[2]/div/iframe")
+framemail = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div[3]/div[2]/div/iframe")
 driver.switch_to.frame(framemail)
-emailgetlink = driver.find_element_by_xpath("/html/body/a[1]").get_attribute("href")
+emailgetlink = driver.find_element(By.XPATH, "/html/body/a[1]").get_attribute("href")
 linkuptime = emailgetlink
 print(linkuptime)
 driver.get(linkuptime)
@@ -97,20 +98,20 @@ driver.get("https://uptimerobot.com/dashboard#mySettings")
 time.sleep(0.2)
 driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 try:
-    driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[3]/div[4]/div/div/div[7]/div/div[2]/div/div/fieldset/ul/li[1]/a").click()
+    driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/div[3]/div[4]/div/div/div[7]/div/div[2]/div/div/fieldset/ul/li[1]/a").click()
 except:
     driver.execute_script("""function getElementByXpath(path){return document.evaluate(path,document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue}getElementByXpath("/html/body/div[2]/div[2]/div[3]/div[4]/div/div/div[7]/div/div[2]/div/div/fieldset/ul/li[1]/a").click();""")
     input("japierdole")
     pass
 time.sleep(2)
 try:
-    driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[3]/div[4]/div/div/div[7]/div/div[2]/div/div/fieldset/ul/li[2]/div[1]/button").click()
+    driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/div[3]/div[4]/div/div/div[7]/div/div[2]/div/div/fieldset/ul/li[2]/div[1]/button").click()
 except:
     driver.execute_script("""function getElementByXpath(path){return document.evaluate(path,document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue}getElementByXpath("/html/body/div[2]/div[2]/div[3]/div[4]/div/div/div[7]/div/div[2]/div/div/fieldset/ul/li[2]/div[1]/button").click();""")
     input("japierdole")
     pass
 time.sleep(8)
-getapikey = driver.find_element_by_xpath("/html/body/div[2]/div[2]/div[3]/div[4]/div/div/div[7]/div/div[2]/div/div/fieldset/ul/li[2]/div[2]/span").text #getemail
+getapikey = driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/div[3]/div[4]/div/div/div[7]/div/div[2]/div/div/fieldset/ul/li[2]/div[2]/span").text #getemail
 apikey = getapikey
 time.sleep(1)
 print(apikey)
