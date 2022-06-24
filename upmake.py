@@ -29,7 +29,7 @@ passwordrepl = "rawr12!AAc"
 options.add_argument('--no-first-run --no-service-autorun --password-store=basic') #wlacz to jak juz nie bedzie dev test
 options.user_data_dir = "rawrz"
 options.add_argument('--user-data-dir=rawrz')
-driver = uc.Chrome(options=options)  # version_main allows to specify your chrome version instead of following chrome global version
+driver = uc.Chrome(options=options, version_main=102)  # version_main allows to specify your chrome version instead of following chrome global version
 
 linkuptime = "nil"
 
