@@ -57,10 +57,10 @@ time.sleep(0.1)
 driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/div[2]/input").send_keys(emailrepl) #email
 time.sleep(0.1)
 driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/div[3]/input").send_keys(passwordrepl) #password
-frime = driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/div[5]/div/div/div/iframe")
-driver.switch_to.frame(frime)
 timez = int(time.time())+120
 try:
+    frime = driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/div[5]/div/div/div/iframe")
+    driver.switch_to.frame(frime)
     if(driver.find_element(By.XPATH, "/html/body/div[2]/div[3]/div[1]/div/div/span")):
         print("yes")
         while b == True:
