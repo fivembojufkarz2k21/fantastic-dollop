@@ -34,7 +34,7 @@ caps = DesiredCapabilities().CHROME
 # caps["pageLoadStrategy"] = "normal"  #  Waits for full page load
 caps["pageLoadStrategy"] = "none"   # Do not wait for full page load
 options.add_argument('--user-data-dir=rawr')
-driver = uc.Chrome(options=options, desired_capabilities=caps, version_main=103)  # version_main allows to specify your chrome version instead of following chrome global version
+driver = uc.Chrome(options=options, desired_capabilities=caps, version_main=102)  # version_main allows to specify your chrome version instead of following chrome global version
 driver.get("https://client.falixnodes.net/auth/register")
 time.sleep(10)
 emailrepl = "".join(random.sample(username_for, long_username))+"@cldkid.com"
