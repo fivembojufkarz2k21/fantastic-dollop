@@ -34,7 +34,7 @@ caps = DesiredCapabilities().CHROME
 # caps["pageLoadStrategy"] = "normal"  #  Waits for full page load
 caps["pageLoadStrategy"] = "none"   # Do not wait for full page load
 options.add_argument('--user-data-dir=rawr')
-driver = uc.Chrome(options=options, desired_capabilities=caps, version_main=102)  # version_main allows to specify your chrome version instead of following chrome global version
+driver = uc.Chrome(options=options, desired_capabilities=caps, version_main=103)  # version_main allows to specify your chrome version instead of following chrome global version
 driver.get("https://client.falixnodes.net/auth/register")
 time.sleep(10)
 emailrepl = "".join(random.sample(username_for, long_username))+"@cldkid.com"
@@ -64,6 +64,8 @@ driver.find_element(By.XPATH, "/html/body/main/div/div/div/div/div/div/div[2]/di
 time.sleep(20)
 driver.get("https://client.falixnodes.net/create")
 time.sleep(7)
+driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/main/div/div/div[4]/div/div/div[2]/div/form/div[1]/input").send_keys("let go")
 driver.find_element(By.XPATH, "/html/body/main/div/div/div[4]/div/div/div[2]/div/form/div[3]/input").click()
 time.sleep(3)
