@@ -22,7 +22,7 @@ headers = {
     'cache-control': "no-cache",
     'content-type': "application/x-www-form-urlencoded"
     }
-responsez = requests.request("GET", "http://localhost:8080/gwetname", headers=headers)
+responsez = requests.request("GET", "https://rawrzz.nordalts.cf/gwetname", headers=headers)
 xdr = responsez.text
 
 passwordrepl = "rawr12!AAc"
