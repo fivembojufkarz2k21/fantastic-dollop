@@ -1,0 +1,27 @@
+name: closer rawr
+
+on:
+  workflow_dispatch:
+  
+  
+jobs:
+  snirudfxpzlw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          bash
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
