@@ -78,9 +78,11 @@ driver.get("https://replit.com/@replit/Nodejs?v=1")
 time.sleep(3)
 driver.execute_script("""function getElementByXpath(path){return document.evaluate(path,document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue}getElementByXpath("/html/body/div[1]/div/main/div[3]/div/div/div[2]/div/button[1]").click();""")
 time.sleep(8)
-
+timezz = int(time.time())+300
 while az==True:
     time.sleep(1)
+    if(timezz<int(time.time())):
+        cockz
     try:
         driver.find_element(By.XPATH,"/html/body/div[3]/div/div[1]/button").click()
         time.sleep(1)
