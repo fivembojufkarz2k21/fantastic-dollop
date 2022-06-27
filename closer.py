@@ -83,7 +83,7 @@ driver.find_element(By.XPATH, '//*[@id="createtoken_name"]').send_keys(usernamer
 driver.find_element(By.XPATH, '//*[@id="createtoken_access_automation"]').click()
 time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="createtoken"]/button').click()
-input("rawr")
+time.sleep(10)
 rawrz = driver.find_element(By.XPATH,'//*[@id="main"]/div/div/div/div/div/div/pre/code/span').text
 print(rawrz)
 os.system("npm logout")
