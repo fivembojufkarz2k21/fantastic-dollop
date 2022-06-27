@@ -5,7 +5,2185 @@ on:
   
   
 jobs:
-  snirudfxpzlw:
+  czgvokfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  dtgijusnmwyq:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  wyziqhkeagbd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  nkzobyjvicqp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  kifsgbeyczaw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  lnbgdkxosvtk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  slbrpnzvfwda:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  uszlgveajmkq:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  tbcpjgoiqrxf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  cifqnbygkhvx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  zawnrbixlfug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  faeqsxnhjczd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  sdmrhxfwgjnb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  mhkilwsbdneu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  xgloqeuhdtyk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  cysunaqkeoiv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  vioqzfgktmen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  wcqnkmahpbyx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  pfmqvryolkgd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ytzurvkmocsd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  gamdxyztbeuh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  omhrcfxglvwn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  pkrhjnzxabgf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  avogpwmkxqkl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  nrokmycdgxqk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  lbouegjhpkcz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  aucnhdizyexm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  uciegxjkrdto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  evlpjftyxhkg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  btqwlsgkjime:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  kcvgdejtuskl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  nsxbpmlkuijt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  nksexirzahkp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  tjbkyswmvcpk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ckleonxvwhfr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  vaokejznysxp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  kfvqutigzjcm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  fcmogtzijqps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  mcrnlgpwtyqk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ntqavskodyhj:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  hlcyfeavidzo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  nduzkghmkqpa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  qolpyuasdvfk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  zrlgkxmsoakn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  hbanygfqxwlv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ozhcnrafydpv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  kgebcnxwmozl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  zbdrjasoklpt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ldyrnehuajmk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  sxtfdvkqncah:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ieqnxvpakdow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  jrdilfsyqoak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  legmyufzphdi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  asmpyoeqvizr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  cvkfjlrkgwyu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  mrbpwlxjeush:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  hnjigrbleytf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  bkfjrokcuqix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  oawtnylpvheg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  odsxckjgwlfa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  uszxjwcoiafg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  vswqyrctkeax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  rjtymuipwekc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  xywfljmpzqek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  akeowzrdbfiv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  tkaygbfvznmh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  xkefvobryzdn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  wjydkvpenhzs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  hrsvduiotqjm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  xdomhalkbnws:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  zmfblykisdow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  eyxsgqvhtmbf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ingwalprhoku:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  afviupndxekt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  dkeqtifhbola:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  bvglcrqtaenm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  xegavkpmflij:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  gefikhcjkobv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  cofykmnxhvru:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  cuawodjnkikx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  egdyluvajkqh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  pynkikhedzjv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  lxikajtcokup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  rnfoxqtevlwd:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  nhfsujckxkdb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  hqrjuxkvesgp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  mcpzakgvlury:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  rjnlifothzvm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  bqcngkvyomwr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  hoctnrfuqgvi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  zvunfjkkxthg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  rksafnphqecb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  bhmrwaepcgji:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ijaegmwnlvof:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  ilqpubjkxron:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  adqzkxtubksw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  itvfrkecmhyz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  pkmijeulshwv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  xaounhqbldpk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: install nvm
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          nvm i 18
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 closer.py
+  xjszpeuaynkc:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
