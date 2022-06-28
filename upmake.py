@@ -39,7 +39,7 @@ emailrepl = "".join(random.sample(username_for, long_username))+"@gmail.com"
 a = True
 b = True
 time.sleep(3)
-driver.get('https://mail.gw')
+driver.get('https://mail.tm')
 time.sleep(3)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[2]/div[5]/button").click()
 time.sleep(8)
@@ -61,7 +61,7 @@ time.sleep(60)
 time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/section/div/div[2]/div[1]/form/button").click()
 time.sleep(10)
-driver.get('https://mail.gw')
+driver.get('https://mail.tm')
 time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div[2]/ul/li/a/div").click() #click mail
 time.sleep(1)
