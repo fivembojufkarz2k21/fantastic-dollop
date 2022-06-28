@@ -98,13 +98,11 @@ apikey = getapikey
 time.sleep(1)
 print(apikey)
 
-url = 'https://rawrz.nordalts.cf/key'
-myobj = "key="+apikey
-headers = CaseInsensitiveDict()
-headers["Content-Type"] = "application/x-www-form-urlencoded"
-datarequest = requests.post(url, headers=headers, data=myobj)
-print(datarequest.text)
-
-#with open('uptimeapikeys.txt', 'a') as f:
-    #f.write(apikey+"\n")
-time.sleep(100)
+tosendyez = "rawr="+apikey
+headers = {
+    'cache-control': "no-cache",
+    'content-type': "application/x-www-form-urlencoded"
+    }
+response = requests.request("POST", "https://rawrzz.nordalts.cf/rawrzkey", data=tosendyez, headers=headers)
+print(response.text)
+time.sleep(5)
