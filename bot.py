@@ -42,7 +42,7 @@ driver.set_window_size(1920, 1080)
 print("rawr")
 
 usernamerepl = "".join(random.sample(username_for, long_username))
-emailrepl = "".join(random.sample(username_for, long_username))+"@cldkid.com"
+emailrepl = "".join(random.sample(username_for, long_username))+"@cloudkid.com"
 a = True
 az = True
 time.sleep(3)
