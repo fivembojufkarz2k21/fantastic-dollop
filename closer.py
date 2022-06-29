@@ -23,8 +23,7 @@ headers = {
     'cache-control': "no-cache",
     'content-type': "application/x-www-form-urlencoded"
     }
-responsez = requests.request("GET", "https://rawrzz.nordalts.cf/gwetname", headers=headers)
-xdr = responsez.text
+
 
 passwordrepl = "rawr12!AAc"
 
