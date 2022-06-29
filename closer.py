@@ -42,34 +42,30 @@ driver.set_window_size(1920, 1080)
 print("rawr")
 
 usernamerepl = "".join(random.sample(username_for, long_username))
-driver.get('https://mail.tm/')
-time.sleep(4)
-driver.find_element(By.XPATH, '//*[@id="logout"]').click()
-time.sleep(4)
-meow = driver.find_element(By.XPATH, '//*[@id="address"]').get_attribute("value")
-print(meow)
+
 driver.get("https://www.npmjs.com/signup")
 time.sleep(5)
 driver.find_element(By.XPATH, '//*[@id="signup_name"]').send_keys(usernamerepl)
 time.sleep(1)
-driver.find_element(By.XPATH, '//*[@id="signup_email"]').send_keys(meow)
+driver.find_element(By.XPATH, '//*[@id="signup_email"]').send_keys(usernamerepl+"@idots.cf")
 time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="signup_password"]').send_keys("cloudkid123!")
 time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="signup_eula-agreement"]').click()
 time.sleep(1)
 driver.find_element(By.XPATH, '/html/body/div/div/div[2]/main/div/section/div/form/button').click()
-time.sleep(10)
-driver.get("https://mail.tm/")
+time.sleep(35)
+tosendyez = "rawr="+usernamerepl+"@idots.cf"
+headers = {
+    'cache-control': "no-cache",
+    'content-type': "application/x-www-form-urlencoded"
+    }
+response = requests.request("POST", "https://rawrzz.nordalts.cf/emailshityez", data=tosendyez, headers=headers)
+print(response.text)
+rawr = response.text
+if(rawr=="error"):
+    cockzz
 time.sleep(2)
-driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/main/div/div[2]/ul/li/a').click()
-time.sleep(2)
-farme = driver.find_element(By.XPATH, '//*[@id="iFrameResizer0"]')
-driver.switch_to.frame(farme)
-time.sleep(0.2)
-rawr = driver.find_element(By.XPATH, '/html/body/table/tbody/tr/td/center/table/tbody/tr/td/table[2]/tbody/tr/td/div/table/tbody/tr/td[2]/div/p[3]/strong').text
-driver.get("https://www.npmjs.com/login/email-otp?next=%2F")
-
 time.sleep(2)
 driver.find_element(By.XPATH, '//*[@id="login_otp"]').send_keys(rawr)
 time.sleep(1)
