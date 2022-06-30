@@ -106,7 +106,7 @@ time.sleep(50)
 namerepl = driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[3]/span").text
 username = driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[1]/span/a").text
 namerepl = namerepl.replace(".", "")
-tosendyez = "meow=https://"+namerepl+"."+username+".repl.co/"
+tosendyez = "meow=http://"+namerepl+"."+username+".repl.co/"
 headers = {
     'cache-control': "no-cache",
     'content-type': "application/x-www-form-urlencoded"
