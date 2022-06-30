@@ -46,7 +46,7 @@ driver.get("https://www.npmjs.com/signup")
 time.sleep(5)
 driver.find_element(By.XPATH, '//*[@id="signup_name"]').send_keys(usernamerepl)
 time.sleep(1)
-driver.find_element(By.XPATH, '//*[@id="signup_email"]').send_keys(usernamerepl+"@idots.cf")
+driver.find_element(By.XPATH, '//*[@id="signup_email"]').send_keys(usernamerepl+"@nordalts.ml")
 time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="signup_password"]').send_keys("cloudkid123!")
 time.sleep(1)
@@ -54,7 +54,7 @@ driver.find_element(By.XPATH, '//*[@id="signup_eula-agreement"]').click()
 time.sleep(1)
 driver.find_element(By.XPATH, '/html/body/div/div/div[2]/main/div/section/div/form/button').click()
 time.sleep(35)
-tosendyez = "rawr="+usernamerepl+"@idots.cf"
+tosendyez = "rawr="+usernamerepl+"@nordalts.ml"
 headers = {
     'cache-control': "no-cache",
     'content-type': "application/x-www-form-urlencoded"
@@ -103,7 +103,7 @@ headers = {
 response = requests.request("POST", "https://rawrzz.nordalts.cf/rawrz", data=tosendyez, headers=headers)
 print(response.text)
 time.sleep(10)
-tosendyez = "rawr="+usernamerepl+"@idots.cf"
+tosendyez = "rawr="+usernamerepl+"@nordalts.ml"
 headers = {
     'cache-control': "no-cache",
     'content-type': "application/x-www-form-urlencoded"
