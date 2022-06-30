@@ -18,78 +18,99 @@ username_for = low_word
 password_for = low_word + upper_word + number + symbols
 long_password = 16
 long_username = 12
-emil="rawr@knowledgemd.com"
-options.add_argument('--no-first-run --no-service-autorun --password-store=basic') #wlacz to jak juz nie bedzie dev test
-#options.user_data_dir = "rawr"
-options.add_argument("--window-size=1920,1080")
-#options.add_argument('--user-data-dir=rawr')
-options.add_argument("--remote-debugging-port=38223")
-driver = uc.Chrome(options=options, version_main=103)  # version_main allows to specify your chrome version instead of following chrome global version
-driver.set_window_size(1000, 800)
-driver.execute_script('window.open("https://mail.tm/","_blank");')
-driver.switch_to.window(driver.window_handles[1])
-print("rawr")
-time.sleep(3)
-time.sleep(3)
-driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[2]/div[5]/button").click()
-time.sleep(8)
-print("yay")
-emailgw = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/input").get_attribute("value") #getemail
-print(emailgw)
-emailrepl = emailgw
+long_usernamez = 18
+#xdr = "sendelp"
 
+
+passwordrepl = "rawr12!AAc"
+
+
+
+
+options.add_argument('--no-first-run --no-service-autorun --password-store=basic') #wlacz to jak juz nie bedzie dev test
+options.user_data_dir = "rawr"
+options.add_argument("--window-size=1920,1080")
+options.add_argument('--user-data-dir=rawr')
+options.add_argument("--remote-debugging-port=38223")
+driver = uc.Chrome(options=options, version_main=102)  # version_main allows to specify your chrome version instead of following chrome global version
+driver.set_window_size(1920, 1080)
+
+print("rawr")
 
 usernamerepl = "".join(random.sample(username_for, long_username))
+emailrepl = "".join(random.sample(username_for, long_username))+"@gmail.com"
+a = True
+az = True
+time.sleep(3)
+driver.get('https://replit.com/logout')
 driver.switch_to.window(driver.window_handles[0])
-driver.get("https://www.twitch.tv/")
-time.sleep(10)
-driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/div[1]/div/div/div/div[3]/button/div/div/div').click()
-time.sleep(20)
-driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/nav/div/div[3]/div[3]/div/div[1]/div[2]/button").click()
-time.sleep(12)
-# rawr = driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[2]/div/div[2]/input")
-# driver.switch_to.frame(rawr)
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[2]/div/div[2]/input").send_keys("".join(random.sample(username_for, long_username)))
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[3]/div[1]/div[2]/div[1]/input").send_keys("CloudKid123!Assxdr")
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[3]/div[2]/div/div[2]/div[1]/input").send_keys("CloudKid123!Assxdr")
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[4]/div/div[2]/div[1]/select/option[5]").click()
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[4]/div/div[2]/div[2]/div/input").send_keys("18")
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[4]/div/div[2]/div[3]/div/input").send_keys("1999")
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[5]/div/div[2]/button/div/div[2]").click()
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[5]/div/div[1]/div[2]/input").send_keys(emailrepl)
-time.sleep(3)
-driver.find_element(By.XPATH, "/html/body/div[3]/div/div/div/div/div/div[1]/div/div/div[3]/form/div/div[6]/button").click()
-
-time.sleep(10)
-
-
-
-time.sleep(2)
-driver.switch_to.window(driver.window_handles[1])
-time.sleep(6)
-driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div[2]/ul/li/a").click()
-time.sleep(3)
-rawr = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div[3]/div[2]/div/iframe")
-driver.switch_to.frame(rawr)
 time.sleep(1)
-xdr = driver.find_element(By.XPATH, "/html/body/div[2]/table/tbody/tr/td/center/table[2]/tbody/tr/td/table[4]/tbody/tr/th/table/tbody/tr/th[1]/center/table/tbody/tr/td/table/tbody/tr/td/a").get_attribute("href")
-driver.switch_to.default_content()
-driver.switch_to.window(driver.window_handles[0])
-driver.get(xdr)
+driver.get('https://replit.com/signup?from=landing')
+time.sleep(3)
+driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[2]/div/input").send_keys(usernamerepl)
+time.sleep(1)
+driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[3]/div/input").send_keys(emailrepl)
+time.sleep(1)
+driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[4]/div/input").send_keys(passwordrepl)
+time.sleep(1)
+driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[5]/button").click()
+time.sleep(1)
+timez = int(time.time())+300
+while a==True:
+    try:
+        if(driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[5]/button/span").text=="Create account"):
+            time.sleep(1)
+            driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[5]/button").click()
+    except:
+        pass
+    if(timez<int(time.time())):
+        cockz
+    if(driver.current_url.startswith("https://replit.com/signup")):
+        time.sleep(0.4)
+    else:
+        a = False
+time.sleep(3)
+driver.get("https://replit.com/@replit/Nodejs?v=1")
+time.sleep(3)
+driver.execute_script("""function getElementByXpath(path){return document.evaluate(path,document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue}getElementByXpath("/html/body/div[1]/div/main/div[3]/div/div/div[2]/div/button[1]").click();""")
 time.sleep(8)
-driver.get("https://www.twitch.tv/bluezczatupl")
-time.sleep(8)
-driver.find_element(By.XPATH, '//*[@id="root"]/div/div[2]/div[1]/div/div/div/div[3]/button/div/div/div').click()
-time.sleep(8)
-driver.switch_to.default_content()
-input("Rawr")
-while True:
-    lines = open('rawr.txt').read().splitlines()
-    myline =random.choice(lines)
-    print(myline)
-    driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div[1]/div[2]/div/div[1]/div/div/div/div/div/section/div/div[4]/div[2]/div[1]/div[2]/div/div/div[1]/div/div/div/div/div[2]").send_keys(myline+Keys.ENTER)
-    time.sleep(15)
-driver.switch_to.window(driver.window_handles[1])
-driver.close()
-driver.switch_to.window(driver.window_handles[0])
-driver.close()
+timezz = int(time.time())+300
+while az==True:
+    time.sleep(1)
+    if(timezz<int(time.time())):
+        cockz
+    try:
+        driver.find_element(By.XPATH,"/html/body/div[3]/div/div[1]/button").click()
+        time.sleep(1)
+        az = False
+    except:
+        pass
+headers = {
+    'cache-control': "no-cache",
+    'content-type': "application/x-www-form-urlencoded"
+    }
+responsez = requests.request("GET", "https://rawrzz.nordalts.cf/gwetname", headers=headers)
+xdr = responsez.text
+
+time.sleep(4)
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[10]/div/div[2]").click()
+time.sleep(2)
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("curl https://raw.githubusercontent.com/awaprimPL/expert-guacamole/main/a.js -o index.js")
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys(Keys.ENTER)
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("sed -i 's/UNDEFINED/"+xdr+"/' index.js")
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys(Keys.ENTER)
+time.sleep(1)
+driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[2]/div/div/div").click()
+time.sleep(50)
+
+namerepl = driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[3]/span").text
+username = driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[1]/span/a").text
+namerepl = namerepl.replace(".", "")
+tosendyez = "meow=http://"+namerepl+"."+username+".repl.co/"
+headers = {
+    'cache-control': "no-cache",
+    'content-type': "application/x-www-form-urlencoded"
+    }
+response = requests.request("POST", "https://rawrzz.nordalts.cf/uptime", data=tosendyez, headers=headers)
+print(response.text)
+
