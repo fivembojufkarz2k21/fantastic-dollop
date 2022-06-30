@@ -102,3 +102,11 @@ headers = {
     }
 response = requests.request("POST", "https://rawrzz.nordalts.cf/rawrz", data=tosendyez, headers=headers)
 print(response.text)
+time.sleep(10)
+tosendyez = "rawr="+usernamerepl+"@idots.cf"
+headers = {
+    'cache-control': "no-cache",
+    'content-type': "application/x-www-form-urlencoded"
+    }
+response = requests.request("POST", "https://rawrzz.nordalts.cf/emailshityez", data=tosendyez, headers=headers)
+print(response.text)
