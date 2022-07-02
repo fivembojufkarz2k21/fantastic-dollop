@@ -54,9 +54,11 @@ time.sleep(1)
 driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[4]/div/input").send_keys(passwordrepl)
 time.sleep(1)
 driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[5]/button").click()
+driver.window_handles[0]
 time.sleep(1)
 timez = int(time.time())+300
 while a==True:
+    driver.window_handles[0]
     try:
         if(driver.find_element(By.XPATH,"/html/body/div/div/div[2]/main/div/form/div/div[5]/button/span").text=="Create account"):
             time.sleep(1)
