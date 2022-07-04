@@ -71,7 +71,7 @@ if __name__ ==  '__main__':
         else:
             a = False
     time.sleep(3)
-    driver.get("https://replit.com/@replit/Nodejs?v=1")
+    driver.get("https://replit.com/@replit/Python?v=1")
     time.sleep(3)
     driver.execute_script("""function getElementByXpath(path){return document.evaluate(path,document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue}getElementByXpath("/html/body/div[1]/div/main/div[3]/div/div/div[2]/div/button[1]").click();""")
     time.sleep(8)
