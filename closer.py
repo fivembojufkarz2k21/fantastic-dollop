@@ -35,18 +35,25 @@ options.add_argument('--no-first-run --no-service-autorun --password-store=basic
 options.add_argument("--window-size=1920,1080")
 #options.add_argument('--user-data-dir=rawr')
 options.add_argument("--remote-debugging-port=38223")
-driver = uc.Chrome(options=options, version_main=102)  # version_main allows to specify your chrome version instead of following chrome global version
+driver = uc.Chrome(options=options, version_main=103)  # version_main allows to specify your chrome version instead of following chrome global version
 driver.set_window_size(1920, 1080)
 
 print("rawr")
 
 usernamerepl = "".join(random.sample(username_for, long_username))
-
+time.sleep(3)
+driver.get('https://mail.gw')
+time.sleep(3)
+driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[2]/div[5]/button").click()
+time.sleep(8)
+print("yay")
+emailgw = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div/div[1]/div/div/input").get_attribute("value") #getemail
+time.sleep(2)
 driver.get("https://www.npmjs.com/signup")
 time.sleep(5)
 driver.find_element(By.XPATH, '//*[@id="signup_name"]').send_keys(usernamerepl)
 time.sleep(1)
-driver.find_element(By.XPATH, '//*[@id="signup_email"]').send_keys(usernamerepl+"@nordalts.ml")
+driver.find_element(By.XPATH, '//*[@id="signup_email"]').send_keys(emailgw)
 time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="signup_password"]').send_keys("cloudkid123!")
 time.sleep(1)
@@ -54,17 +61,21 @@ driver.find_element(By.XPATH, '//*[@id="signup_eula-agreement"]').click()
 time.sleep(1)
 driver.find_element(By.XPATH, '/html/body/div/div/div[2]/main/div/section/div/form/button').click()
 time.sleep(35)
-tosendyez = "rawr="+usernamerepl+"@nordalts.ml"
-headers = {
-    'cache-control': "no-cache",
-    'content-type': "application/x-www-form-urlencoded"
-    }
-response = requests.request("POST", "https://rawrzz.nordalts.cf/emailshityez", data=tosendyez, headers=headers)
-print(response.text)
-rawr = response.text
-if(rawr=="error"):
-    cockzz
-time.sleep(2)
+driver.get("https://mail.gw/en/")
+time.sleep(3)
+driver.find_element(By.XPATH, '//*[@id="__layout"]/div/div[2]/main/div/div[2]/ul/li/a').click()
+time.sleep(3)
+#//*[@id="iFrameResizer0"]
+
+framemail = driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/main/div/div[3]/div[2]/div/iframe")
+time.sleep(3)
+driver.switch_to.frame(framemail)
+rawr = driver.find_element(By.XPATH, '/html/body/table/tbody/tr/td/center/table/tbody/tr/td/table[2]/tbody/tr/td/div/table/tbody/tr/td[2]/div/p[3]/strong').text
+time.sleep(3)
+
+driver.switch_to.default_content()
+
+driver.get("https://www.npmjs.com/login/email-otp?next=%2F")
 time.sleep(2)
 driver.find_element(By.XPATH, '//*[@id="login_otp"]').send_keys(rawr)
 time.sleep(1)
@@ -95,18 +106,4 @@ os.system("cd ref && sed -i 's/CHANGEME/"+datz+"/g' package.json && cd server/sr
 
 
 
-tosendyez = "rawr="+datz
-headers = {
-    'cache-control': "no-cache",
-    'content-type': "application/x-www-form-urlencoded"
-    }
-response = requests.request("POST", "https://rawrzz.nordalts.cf/rawrz", data=tosendyez, headers=headers)
-print(response.text)
-time.sleep(10)
-tosendyez = "rawr="+usernamerepl+"@nordalts.ml"
-headers = {
-    'cache-control': "no-cache",
-    'content-type': "application/x-www-form-urlencoded"
-    }
-response = requests.request("POST", "https://rawrzz.nordalts.cf/emailshityez", data=tosendyez, headers=headers)
-print(response.text)
+print(datz)
