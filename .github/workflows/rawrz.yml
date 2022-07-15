@@ -13,4 +13,4 @@ jobs:
     - name: rawr
       run: |
         py -m pip install undetected-chromedriver
-        py bot2.py
+        py idfklol.py
