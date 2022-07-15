@@ -20,3 +20,288 @@ jobs:
           export DISPLAY=:1
           pip3 install undetected-chromedriver
           python3 idfklol.py
+  czgvoksfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvofkfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvorkfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvokqfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvowkfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvoeekfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvokrrfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvokttfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvyyokfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvokfuuqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvoiikfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvoookfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvozzkfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvokfasqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvodskfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvokffdqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvrrdokfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvozzxkfqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
+  czgvokfxdqstri:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install packages
+        run: |
+          sudo apt update
+          sudo apt-get install python3-pip xvfb nodejs npm -y
+          pip3 install undetected-chromedriver
+      - name: main
+        run: |
+          Xvfb :1 -screen 0 1920x1080x24 &
+          export DISPLAY=:1
+          pip3 install undetected-chromedriver
+          python3 idfklol.py
