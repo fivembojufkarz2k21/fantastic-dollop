@@ -35,5 +35,5 @@ if __name__ ==  '__main__':
   driver.set_window_size(1920, 1080)
   driver.get("https://www.youtube.com/watch?v=grdP213KD-Y")
   time.sleep(9)
-  driver.find_element(By.XPATH, '/html/body/ytd-app/ytd-consent-bump-v2-lightbox/tp-yt-paper-dialog/div[4]/div[2]/div[6]/div[1]/ytd-button-renderer[2]/a').click()
+  #driver.find_element(By.XPATH, '/html/body/ytd-app/ytd-consent-bump-v2-lightbox/tp-yt-paper-dialog/div[4]/div[2]/div[6]/div[1]/ytd-button-renderer[2]/a').click()
   time.sleep(69420)
