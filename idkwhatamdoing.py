@@ -13,10 +13,4 @@ def rawr():
         os.system("rm "+usernamerepl)
         
         
-thread1 = threading.Thread(target=rawr)
-thread2 = threading.Thread(target=rawr)
-thread1.run()
-thread2.run()
-while True:
-    time.sleep(10)
-    print("up")
+rawr()
