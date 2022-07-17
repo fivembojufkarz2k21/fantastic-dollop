@@ -15,9 +15,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfqfdsstri:
     runs-on: ubuntu-latest
@@ -29,9 +26,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfzxcqstri:
     runs-on: ubuntu-latest
@@ -43,9 +37,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfqrrstri:
     runs-on: ubuntu-latest
@@ -57,9 +48,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfqqqstri:
     runs-on: ubuntu-latest
@@ -71,9 +59,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfwwqstri:
     runs-on: ubuntu-latest
@@ -85,9 +70,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokeeeefqstri:
     runs-on: ubuntu-latest
@@ -99,9 +81,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokzzzfqstri:
     runs-on: ubuntu-latest
@@ -113,9 +92,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfxxxqstri:
     runs-on: ubuntu-latest
@@ -127,9 +103,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfqcccstri:
     runs-on: ubuntu-latest
@@ -141,9 +114,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfqvvvstri:
     runs-on: ubuntu-latest
@@ -155,9 +125,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvogggkfqstri:
     runs-on: ubuntu-latest
@@ -169,9 +136,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfqhhhhstri:
     runs-on: ubuntu-latest
@@ -183,9 +147,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvojjjjkfqstri:
     runs-on: ubuntu-latest
@@ -197,9 +158,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokeeefqstri:
     runs-on: ubuntu-latest
@@ -211,9 +169,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokqqqfqstri:
     runs-on: ubuntu-latest
@@ -225,9 +180,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvokfwwwqstri:
     runs-on: ubuntu-latest
@@ -239,9 +191,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvoeeeeekfqstri:
     runs-on: ubuntu-latest
@@ -253,9 +202,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvoasdkfqstri:
     runs-on: ubuntu-latest
@@ -267,9 +213,6 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
   czgvosdfkfqstri:
     runs-on: ubuntu-latest
@@ -281,7 +224,4 @@ jobs:
           sudo apt-get install python3-pip xvfb util-linux -y
       - name: main
         run: |
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
-          python3 idkwhatamdoing.py &
           python3 idkwhatamdoing.py
