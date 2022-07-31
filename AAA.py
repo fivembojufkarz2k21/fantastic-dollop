@@ -8,7 +8,7 @@ import json
 import os
 import requests
 from selenium.webdriver.common.by import By
-
+os.system("rm -rf rawr && cp -r rawrz rawr")
 options = uc.ChromeOptions()
 a = True
 low_word = "abcdefghijklkmnopqrstuvwxyz"
