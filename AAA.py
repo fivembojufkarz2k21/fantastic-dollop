@@ -8,7 +8,7 @@ import json
 import os
 import requests
 from selenium.webdriver.common.by import By
-os.system("rm -rf rawr && cp -r rawrz rawr")
+
 options = uc.ChromeOptions()
 a = True
 low_word = "abcdefghijklkmnopqrstuvwxyz"
@@ -135,4 +135,4 @@ time.sleep(3)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/section[3]/div/div[2]/button[1]/div[2]/div[2]/input").send_keys("master")
 time.sleep(7)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div[1]/button").click()
-input("rawr")
+time.sleep(69)
