@@ -187,7 +187,7 @@ driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/section[2]/div/d
 time.sleep(3)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/section[2]/div/div[2]/div/div/ul/li").click()
 time.sleep(3)
-driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/section[3]/div/div[2]/button[1]/div[2]/div[2]/input").send_keys("master")
+driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/section[3]/div/div[2]/button[1]/div[2]/div[2]/input").send_keys("main")
 time.sleep(7)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div[1]/button").click()
 time.sleep(20)
