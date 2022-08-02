@@ -37,28 +37,28 @@ ass = "".join(random.sample(username_for, 12))
 driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[1]/input').send_keys(usernamerepl)
 driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[2]/input').send_keys(usernamerepl1)
 driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[3]/div[1]/input').send_keys("21")
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[3]/div[2]/label").click()
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[3]/div[2]/ul/li[3]").click()
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[3]/div[3]/input").send_keys("1999")
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[4]/label").click()
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[4]/ul/li[1]").click()
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[5]/div[1]/input").click()
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[6]/div/input").send_keys(ass+"!H")
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[1]/div[7]/div/input").send_keys(ass+"!H")
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[2]/div[1]/div[1]/label/div").click()
-time.sleep(0.5)
+time.sleep(0.4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div/div[2]/div/form/div[2]/button").click()
 rawr = usernamerepl+"."+usernamerepl1+"@interia.pl"
-
+time.sleep(4)
 driver.switch_to.window(driver.window_handles[0])
 driver.get("https://www.atlassian.com/software/bitbucket/bundle")
 time.sleep(1)
@@ -67,11 +67,21 @@ time.sleep(4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div[2]/div[2]/div/section/div[2]/form/div[1]/div/div/div/input").send_keys(rawr)
 time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="signup-submit"]').click()
-time.sleep(60)
+ # wait for https://id.atlassian.com/signup/welcome/sent? then way 20 seconds!
+timez = int(time.time())+80
+a=True
+while a==True:
+  if(timez<int(time.time())):
+      a = False
+  if(driver.current_url.startswith("https://id.atlassian.com/signup/welcome/sent")):
+      a = False
+  else:
+      time.sleep(0.4)
+time.sleep(20)
 driver.switch_to.window(driver.window_handles[1])
 time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/div[2]/section[3]/div[1]/div[1]/section/ul/li[1]/div[2]/div[1]").click()
-time.sleep(4)
+time.sleep(3)
 iframu = driver.find_element(By.XPATH, "/html/body/div[2]/section[1]/div/div/div/div[1]/div/div[3]/iframe")
 driver.switch_to.frame(iframu)
 egg = driver.find_element(By.XPATH, "/html/body/table/tbody/tr/td/div/div/div[2]/a").get_attribute("href")
@@ -85,11 +95,29 @@ time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div[2]/div[2]/div/section/div[2]/form/div[3]/div[1]/div/div/div/div/input").send_keys(ass+"!H")
 time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div/div[2]/div[2]/div/section/div[2]/form/div[6]/button").click()
-time.sleep(45)
+timezz = int(time.time())+80
+aa=True
+while aa==True:
+  if(timezz<int(time.time())):
+      aa = False
+  if(driver.current_url.startswith("https://bitbucket.org/atlassianid/bb-signup/")):
+      aa = False
+  else:
+    time.sleep(0.4)
+time.sleep(1.5)
 driver.find_element(By.XPATH, "/html/body/main/div/div[1]/div[1]/div[2]/form[1]/div[2]/input").send_keys(usernamerepl+usernamerepl1)
 time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/main/div/div[1]/div[1]/div[2]/form[1]/p/button").click()
-time.sleep(45)
+timezz = int(time.time())+80
+az=True
+while az==True:
+  if(timezz<int(time.time())):
+      az = False
+  if(driver.current_url.startswith("https://bitbucket.org/account/survey")):
+      az = False
+  else:
+      time.sleep(0.4)
+time.sleep(1.5)
 driver.find_element(By.XPATH, "/html/body/div[1]/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/a/span/span/span").click()
 time.sleep(2)
 driver.get("https://bitbucket.org/repo/import")
@@ -121,9 +149,36 @@ try:
   driver.find_element(By.XPATH, "/html/body/div[2]/div/div[2]/div/section/div[2]/div/div/div[2]/div[3]/button").click()
 except:
   pass
-time.sleep(45)
+timezz = int(time.time())+45
+az=True
+while az==True:
+  if(timezz<int(time.time())):
+    try:
+      driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div/section/div[2]/div/div/div[2]/div[3]/button").click()
+    except:
+      pass
+    try:
+      driver.find_element(By.XPATH, "/html/body/div[2]/div/div[2]/div/section/div[2]/div/div/div[2]/div[3]/button").click()
+    except:
+      pass
+      az = False
+  if(driver.current_url.startswith("https://bitbucket.org/site/oauth2/authorize")):
+      az = False
+  else:
+      time.sleep(0.4)
+time.sleep(4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div[2]/div/section/form/div/div/button[1]").click()
-time.sleep(53)
+
+timezz = int(time.time())+55
+az=True
+while az==True:
+  if(timezz<int(time.time())):
+      az = False
+  if(driver.current_url.startswith("https://app.circleci.com/projects/setup")):
+      az = False
+  else:
+      time.sleep(0.4)
+time.sleep(4)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/section[1]/div/div[2]/button").click()
 time.sleep(3)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/section[1]/div/div[2]/div/div/ul/li").click()
@@ -135,4 +190,4 @@ time.sleep(3)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/section[3]/div/div[2]/button[1]/div[2]/div[2]/input").send_keys("master")
 time.sleep(7)
 driver.find_element(By.XPATH, "/html/body/div[1]/div/div/div[2]/div[1]/button").click()
-time.sleep(69)
+time.sleep(20)
