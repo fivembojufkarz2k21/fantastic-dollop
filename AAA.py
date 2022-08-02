@@ -94,7 +94,7 @@ driver.find_element(By.XPATH, "/html/body/div[1]/div[2]/div/div[2]/div/div[1]/di
 time.sleep(2)
 driver.get("https://bitbucket.org/repo/import")
 time.sleep(4)
-driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div[2]/div/section/div/form/div[1]/input").send_keys("https://bitbucket.org/dfhsregfgxcv/rawr/src/master/")
+driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div[2]/div/section/div/form/div[1]/input").send_keys("https://bitbucket.org/isdfhsduf/myrawrz/src/main/")
 time.sleep(1)
 driver.find_element(By.XPATH, "/html/body/div[1]/div[3]/div[2]/div/section/div/form/div[4]/div[1]/div[2]/span/input[1]").send_keys("".join(random.sample(username_for, 6)))
 time.sleep(1)
